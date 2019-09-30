@@ -6,7 +6,7 @@ Let's assume that we are asked by our client to create 10 pages of content in th
 
 We proceed to design the navigation bar and placed them into 10 different pages.
 
-Here are some example.
+Here are some examples.
 
 index.html
 ![index.html](../ver1/example.png)
@@ -38,45 +38,53 @@ Accidents like this happens all the time, as a website is always comprised of ma
 
 ---
 
-## Solution
-
-One of the solutions is to only have one source of truth.
-
-## Source of truth
-
-So what do I mean by `one source of truth` you asked?
-
-For now every page of HTML we have, we will have a navigation bar for it. Since changing the navigation bar of one of the page will not change the rest, we can say that they are from a seperate source of truth.
-
-## Head's up!
-
-By using only HTML or combining it with JavaScript, it is entirely possible to implement the concept of one source of truth, but it's not a common practice to do it and it has some drawbacks as well. Further reading over [here](further-reading.md)!
-
-## What is React?
+## Let's see how we can solve this problem using React!
 
 First I would need to explain what is React.
 
 React is a frontend framework that is built on JavaScript, basically speaking it's just a bunch of functions and code written in JavaScript, the main purpose of these code is to make developer's live easier by solving the above problems and more.
 
-How React works is similar to what we discussed above. A developer would first define a HTML template in JavaScript, that template will be what we call a `component`.
+In React, a developer would first define a HTML template in JavaScript, that template will be what we call a `component`.
 
 ```
-You can think of it as a abbreviation for a bunch of HTML, very cool right?
+You can think of it as a abbreviation / container for a bunch of HTML, very cool right?
 ```
 
 The said `component` can be used in anywhere, even in other `component`s.
 
-## To solve the current problem we're facing.
+But to solve the above problem with only React is insufficient, so we have to apply a concept called `source of truth`.
 
-A template of our navigation bar can be defined in our `component`, and then the `component` can be used in multiple pages.
+## Source of truth
+
+Let me briefly explain a concept known as `source of truth`.
+
+For every page of HTML we have, we will have a navigation bar for it. Since changing the navigation bar of one of the pages will not change the rest of the pages, we can say that they are from a separate source of truth. For the above example, we would have 10 different sources of truth for the navigation bar.
+
+Our goal is to get every single HTML page to use a navigation bar template from only one `source of truth`. Hence, if there are any changes needed, we only need to change from that `source of truth` which will then be applied onto all the pages simultaneously.
+
+---
+
+## Head's up!
+
+By using only HTML or combining it with JavaScript, it is entirely possible to implement the concept of one source of truth, but it's not a common practice to do it and it has some drawbacks as well. If you want to know why, read more [here](further-reading.md)!
+
+---
+
+## SOLUTION!
+
+So now we roughly know what React is and also understand the concept of `source of truth` we can now implement them to solve our problem.
+
+A template of our navigation bar can be defined in our `component`, the `component` defined is now the one `source of truth` for our navigation bar.
 
 Although some setups are still required for React, but after all that you can use the defined component like so.
 
 ```HTML
 <body>
-  <MyNavBar /> <!-- This is the abbreviation mentioned -->
+  <MyNavBar /> <!-- This is the component -->
 </body>
 ```
+
+The `<MyNavBar /> component` above will recreate all the HTML that are defined inside of it. We can then repeat this on the other pages so that they will all use the same `component`, thus achieving one single `source of truth` for the navigation bar! 
 
 ## Do we need to learn React?
 
