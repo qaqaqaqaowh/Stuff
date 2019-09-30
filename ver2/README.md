@@ -9,10 +9,10 @@ We proceed to design the navbar and placed them into 10 different pages.
 Here are some example.
 
 index.html
-![index.html](example.png)
+![index.html](../ver1/example.png)
 
 profile.html
-![profile.html](example2.png)
+![profile.html](../ver1/example2.png)
 
 **\*Phone rings**
 
@@ -23,10 +23,10 @@ Oh noes, the client wanted the color of the navbar to be changed to `#edfaff`.
 We proceed to change the color of the navbar and replaced the navbar in the pages.
 
 index.html
-![index.html](example3.png)
+![index.html](../ver1/example3.png)
 
 profile.html
-![profile.html](example2.png)
+![profile.html](../ver1/example2.png)
 
 **\*Client called again!**
 
