@@ -42,7 +42,7 @@ Accidents like this happens all the time, as a website is always comprised of ma
 
 First I would need to explain what is React.
 
-React is a frontend framework that is built on JavaScript, basically speaking it's just a bunch of functions and code written in JavaScript, the main purpose of these code is to make developer's live easier by solving the above problems and more.
+React is a frontend library that is built on JavaScript, basically speaking it's just a bunch of functions and code written in JavaScript, the main purpose of these code is to make developer's live easier by solving the above problems and more.
 
 In React, a developer would first define a HTML template in JavaScript, that template will be what we call a `component`.
 
@@ -80,11 +80,11 @@ Although some setups are still required for React, but after all that you can us
 
 ```HTML
 <body>
-  <MyNavBar /> <!-- This is the component -->
+  <MyNavBar /> <!-- This is a component -->
 </body>
 ```
 
-The `<MyNavBar /> component` above will recreate all the HTML that are defined inside of it. We can then repeat this on the other pages so that they will all use the same `component`, thus achieving one single `source of truth` for the navigation bar! 
+The `<MyNavBar /> component` above will recreate all the HTML that are defined inside of it. We can then repeat this on the other pages so that they will all use the same `component`, thus achieving one single `source of truth` for the navigation bar!
 
 ## Do we need to learn React?
 
@@ -127,3 +127,27 @@ Logical bugs can also be tracked down fairly easily. If a `component` isn't beha
 ```
 It's like organizing seasonings, utensils, and cookwares into their own cabinet so that it's easier to find them.
 ```
+
+---
+
+## Same structure, different platform.
+
+After learning how to work with React, we can easily start working with React Native!
+
+With React Native, we can now develop mobile apps for both Android and iOS platforms
+
+Write only one React Native app, and it can then be 'translated' into both Android and iOS apps, so you don't have to write both!
+
+React Native is structurally similar with React, meaning that the format of writing are similar. So you would only have to learn the nuances of React Native!
+
+---
+
+## Conclusion
+
+React is a really powerful tool that a frontend developer can use to increase productivity and reduce development time.
+
+~~**PSST! More jobs done in shorter amount of time means more \$\$.**~~
+
+The demand for frontend developers who knows how to work with React is on the rise right now, so learning React will also increase the chance of getting a job as well!
+
+So if you're intrested in signing up for our React bootcamp...
