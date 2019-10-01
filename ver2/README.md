@@ -124,10 +124,6 @@ React also allows easier logic implementation, for example if we have a email in
 
 Logical bugs can also be tracked down fairly easily. If a `component` isn't behaving as it should, since all logics for a `component` is contained within one single file, the bug can be found within a short amount of time.
 
-```
-It's like organizing seasonings, utensils, and cookwares into their own cabinet so that it's easier to find them.
-```
-
 ---
 
 ## Same structure, different platform.
