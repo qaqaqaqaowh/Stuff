@@ -1,12 +1,10 @@
-# React
+# Why would we want to learn React?
 
-## Problem Statement
-
-Let's assume that we are asked by our client to create 10 pages of content in the company's website, all with the same navigation bar.
+Let's assume that we were tasked by our client to create 10 pages of content in the company's website, all with the same navigation bar.
 
 We proceed to design the navigation bar and placed them into 10 different pages.
 
-Here are some examples.
+Here are some examples of the pages.
 
 index.html
 ![index.html](../ver1/example.png)
@@ -42,7 +40,7 @@ Accidents like this happens all the time, as a website is always comprised of ma
 
 First I would need to explain what is React.
 
-React is a frontend library that is built on JavaScript, basically speaking it's just a bunch of functions and code written in JavaScript, the main purpose of these code is to make developer's live easier by solving the above problems and more.
+React is a frontend library that is built on JavaScript, in essence it's just a bunch of functions and code written in JavaScript, the main purpose of these code is to make developer's live easier by solving the above problems and more.
 
 In React, a developer would first define a HTML template in JavaScript, that template will be what we call a `component`.
 
@@ -52,7 +50,14 @@ You can think of it as a abbreviation / container for a bunch of HTML, very cool
 
 The said `component` can be used in anywhere, even in other `component`s.
 
-But to solve the above problem with only React is insufficient, so we have to apply a concept called `source of truth`.
+<div style="height: 200px; width: 200px; border: 1px solid red; padding: 10px;">
+  Component1
+  <div style="height: 100px; width: 100px; border: 1px solid green; padding: 10px;">
+    Component2
+  </div>
+</div>
+
+However, to solve the above problem with only React is insufficient, so we have to apply a concept called `source of truth`.
 
 ## Source of truth
 
@@ -61,14 +66,6 @@ Let me briefly explain a concept known as `source of truth`.
 For every page of HTML we have, we will have a navigation bar for it. Since changing the navigation bar of one of the pages will not change the rest of the pages, we can say that they are from a separate source of truth. For the above example, we would have 10 different sources of truth for the navigation bar.
 
 Our goal is to get every single HTML page to use a navigation bar template from only one `source of truth`. Hence, if there are any changes needed, we only need to change from that `source of truth` which will then be applied onto all the pages simultaneously.
-
----
-
-## Head's up!
-
-By using only HTML or combining it with JavaScript, it is entirely possible to implement the concept of one source of truth, but it's not a common practice to do it and it has some drawbacks as well. If you want to know why, read more [here](further-reading.md)!
-
----
 
 ## SOLUTION!
 
@@ -98,29 +95,29 @@ The above navigation bar can have a default title, maybe the name of the company
 But the title can also be configured to be customizable.
 ```
 
-## Do we need to learn React?
+## Can't we achieve it using JavaScript?
 
-Technically speaking, you **don't**!
+Technically speaking, you **can**!
 
-As mentioned, React is built on JavaScript. That means whatever React is capable of achieving, JavaScript can do the job too!
+By using only HTML or combining it with JavaScript, it is entirely possible to implement the concept of one source of truth, but it's not a common practice to do it and it has some drawbacks as well. If you want to know why, read more [here](further-reading.md)!
 
-So why do we prefer React over Vanilla JavaScript?
+So why do we prefer React over JavaScript?
 
-## Write less, do more.
+## Write less, achieve more.
 
 ## Decrease development time, increase productivity.
 
 React offers reusable `component`s, that means that the HTML that we write in React are all potentially reusable, thus reducing amount of code needed significantly.
 
 ```
-It feels like printing a document on a printer, all the papers that are printed out follows a single source of truth that is the document on your device. Compared to writing the papers all by hand, which might also cause discrepancy between the papers.
+It feels like using a printer versus hand writing documents.
 ```
 
 ---
 
 ## More organized code, faster debugging time.
 
-React also allows easier logic implementation, for example if we have a email input field that needs to be checked for a valid email, its logic can be easily be contained in one `component`, and then be reused whenever we need it.
+React also allows easier logic implementation, for example if we have an email input field that needs to be checked for a valid email, its logic can be easily be contained in one `component`, and then be reused whenever we need it.
 
 Logical bugs can also be tracked down fairly easily. If a `component` isn't behaving as it should, since all logics for a `component` is contained within one single file, the bug can be found within a short amount of time.
 
@@ -134,7 +131,7 @@ With React Native, we can now develop mobile apps for both Android and iOS platf
 
 Write only one React Native app, and it can then be 'translated' into both Android and iOS apps, so you don't have to write both!
 
-React Native is structurally similar with React, meaning that the format of writing are similar. So you would only have to learn the nuances of React Native!
+React Native is structurally similar with React. So you would only have to learn the nuances of React Native!
 
 ---
 
