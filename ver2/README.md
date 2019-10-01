@@ -86,6 +86,18 @@ Although some setups are still required for React, but after all that you can us
 
 The `<MyNavBar /> component` above will recreate all the HTML that are defined inside of it. We can then repeat this on the other pages so that they will all use the same `component`, thus achieving one single `source of truth` for the navigation bar!
 
+```HTML
+Contents of components can be tweaked according to your needs. For example,
+
+<MyNavBar />
+
+The above navigation bar can have a default title, maybe the name of the company or app.
+
+<MyNavBar title='My Custom Title' />
+
+But the title can also be configured to be customizable.
+```
+
 ## Do we need to learn React?
 
 Technically speaking, you **don't**!
@@ -106,18 +118,6 @@ It feels like printing a document on a printer, all the papers that are printed 
 
 ---
 
-### Hey!!!
-
-Are you worried about what if we need to tweak the `component` in one of the page but not the rest?
-
-Fear not! As `component`s are just templates, we can customize it when we are actually using it. For example a `component` of a navigation bar by default has a white color background, but we can change that one particular navigation bar's background color to skyblue.
-
-```
-You can treat a fried rice recipe as a component. You can keep on cooking 10 of the same dish, or you can also spice it up by adding a bunch of hot sauce in one of the plates.
-```
-
----
-
 ## More organized code, faster debugging time.
 
 React also allows easier logic implementation, for example if we have a email input field that needs to be checked for a valid email, its logic can be easily be contained in one `component`, and then be reused whenever we need it.
@@ -134,7 +134,7 @@ It's like organizing seasonings, utensils, and cookwares into their own cabinet 
 
 After learning how to work with React, we can easily start working with React Native!
 
-With React Native, we can now develop mobile apps for both Android and iOS platforms
+With React Native, we can now develop mobile apps for both Android and iOS platforms.
 
 Write only one React Native app, and it can then be 'translated' into both Android and iOS apps, so you don't have to write both!
 
@@ -144,10 +144,10 @@ React Native is structurally similar with React, meaning that the format of writ
 
 ## Conclusion
 
-React is a really powerful tool that a frontend developer can use to increase productivity and reduce development time.
+React is a really powerful tool that a frontend developer can use to increase productivity and reduce development time. This is especially important when we are working with big projects where we have to work with a lot of pages.
 
 ~~**PSST! More jobs done in shorter amount of time means more \$\$.**~~
 
 The demand for frontend developers who knows how to work with React is on the rise right now, so learning React will also increase the chance of getting a job as well!
 
-So if you're intrested in signing up for our React bootcamp...
+If you're intrested in signing up for our React bootcamp...
