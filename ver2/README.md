@@ -6,11 +6,9 @@ We proceed to design the navigation bar and placed them into 10 different pages.
 
 Here are some examples of the pages.
 
-index.html
-![index.html](../ver1/example.png)
-
-profile.html
-![profile.html](../ver1/example2.png)
+|             index.html             |             profile.html              |
+| :--------------------------------: | :-----------------------------------: |
+| ![index.html](../ver1/example.png) | ![profile.html](../ver1/example2.png) |
 
 **\*Phone rings**
 
@@ -20,11 +18,9 @@ Oh noes, the client wanted the color of the navigation bar to be changed to `#ed
 
 We proceed to change the color of the navigation bar and replaced the navigation bar in the pages.
 
-index.html
-![index.html](../ver1/example3.png)
-
-profile.html
-![profile.html](../ver1/example2.png)
+|             index.html              |             profile.html              |
+| :---------------------------------: | :-----------------------------------: |
+| ![index.html](../ver1/example3.png) | ![profile.html](../ver1/example2.png) |
 
 **\*Client called again!**
 
