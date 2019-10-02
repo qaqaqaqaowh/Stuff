@@ -1,6 +1,6 @@
 # Why would we want to learn React?
 
-Let's assume that we were tasked by our client to create 10 pages of content in the company's website, all with the same navigation bar.
+Let's assume that we were tasked by our client to create 10 pages of content for the company's website, all with the same navigation bar.
 
 We proceed to design the navigation bar and placed them into 10 different pages.
 
@@ -28,11 +28,11 @@ profile.html
 
 **\*Client called again!**
 
-Whoops!! Apparently we have forgotten to apply the change to few of the pages.
+Whoops!! We've forgotten to apply the change to a few of the pages.
 
 ---
 
-Accidents like this happens all the time, as a website is always comprised of many HTML pages. We are not perfect human beings, making mistakes here and there is perfectly normal!
+Accidents like this happen all the time, as a website is always comprised of many HTML pages. We are not perfect human beings, making mistakes here and there is perfectly normal!
 
 ---
 
@@ -40,22 +40,17 @@ Accidents like this happens all the time, as a website is always comprised of ma
 
 First I would need to explain what is React.
 
-React is a frontend library that is built on JavaScript, in essence it's just a bunch of functions and code written in JavaScript, the main purpose of these code is to make developer's live easier by solving the above problems and more.
+React is a front-end library that is built on JavaScript, in essence, it's just a bunch of functions and code written in JavaScript, the main purpose of these codes is to make developer's life easier by solving the above problems and more.
 
-In React, a developer would first define a HTML template in JavaScript, that template will be what we call a `component`.
+In React, a developer would first define an HTML template in JavaScript, that template will be what we call a `component`.
 
 ```
-You can think of it as a abbreviation / container for a bunch of HTML, very cool right?
+You can think of it as an abbreviation/container for a bunch of HTML, very cool right?
 ```
 
-The said `component` can be used in anywhere, even in other `component`s.
+The said `component` can be used anywhere, even in other `component`.
 
-<div style="height: 200px; width: 200px; border: 1px solid red; padding: 10px;">
-  Component1
-  <div style="height: 100px; width: 100px; border: 1px solid green; padding: 10px;">
-    Component2
-  </div>
-</div>
+![boxes.png](../ver1/boxes.png)
 
 However, to solve the above problem with only React is insufficient, so we have to apply a concept called `source of truth`.
 
@@ -73,7 +68,7 @@ So now we roughly know what React is and also understand the concept of `source 
 
 A template of our navigation bar can be defined in our `component`, the `component` defined is now the one `source of truth` for our navigation bar.
 
-Although some setups are still required for React, but after all that you can use the defined component like so.
+Although some setups are still required for React, but after all of that, you can use the defined component like so.
 
 ```HTML
 <body>
@@ -99,7 +94,7 @@ But the title can also be configured to be customizable.
 
 Technically speaking, you **can**!
 
-By using only HTML or combining it with JavaScript, it is entirely possible to implement the concept of one source of truth, but it's not a common practice to do it and it has some drawbacks as well. If you want to know why, read more [here](further-reading.md)!
+By using only HTML or combining it with JavaScript, it is entirely possible to implement the concept of one source of truth, but it's not a common practice to do it and it has some drawbacks as well. If you want to know why read more [here](further-reading.md)!
 
 So why do we prefer React over JavaScript?
 
@@ -107,17 +102,17 @@ So why do we prefer React over JavaScript?
 
 ## Decrease development time, increase productivity.
 
-React offers reusable `component`s, that means that the HTML that we write in React are all potentially reusable, thus reducing amount of code needed significantly.
+React offers reusable `component`s, which means that the HTML that we write in React are all potentially reusable, thus reducing the amount of code needed significantly.
 
 ```
-It feels like using a printer versus hand writing documents.
+It feels like using a photostat machine versus handwriting documents.
 ```
 
 ---
 
 ## More organized code, faster debugging time.
 
-React also allows easier logic implementation, for example if we have an email input field that needs to be checked for a valid email, its logic can be easily be contained in one `component`, and then be reused whenever we need it.
+React also allows easier logic implementation. For example, if we have an email input field that needs to be checked for a valid email, its logic can be easily be contained in one `component`, and then be reused whenever we need it.
 
 Logical bugs can also be tracked down fairly easily. If a `component` isn't behaving as it should, since all logics for a `component` is contained within one single file, the bug can be found within a short amount of time.
 
@@ -131,7 +126,7 @@ With React Native, we can now develop mobile apps for both Android and iOS platf
 
 Write only one React Native app, and it can then be 'translated' into both Android and iOS apps, so you don't have to write both!
 
-React Native is structurally similar with React. So you would only have to learn the nuances of React Native!
+React Native is structurally similar to React. So you would only have to learn the nuances of React Native!
 
 ---
 
@@ -139,8 +134,8 @@ React Native is structurally similar with React. So you would only have to learn
 
 React is a really powerful tool that a frontend developer can use to increase productivity and reduce development time. This is especially important when we are working with big projects where we have to work with a lot of pages.
 
-~~**PSST! More jobs done in shorter amount of time means more \$\$.**~~
+~~**PSST! More jobs done in a shorter amount of time means more \$\$.**~~
 
 The demand for frontend developers who knows how to work with React is on the rise right now, so learning React will also increase the chance of getting a job as well!
 
-If you're intrested in signing up for our React bootcamp...
+If you're interested in signing up for our React Bootcamp...
